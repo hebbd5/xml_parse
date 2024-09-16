@@ -2,7 +2,7 @@
 Entity Type: Individual
 Sanctions Lists: SDN List
 Sanctions Programs: ['IFSR', 'IRGC', 'NPWMD', 'SDGT', 'SYRIA']
-Sanctions Types: SDN List
+Sanctions Types: Block
 Legal Authorities: ['CISADA', 'Executive Order 13224 (Terrorism)', 'Executive Order 13382 (Non-proliferation)', 'Executive Order 13572 (Syria)', 'TRA']
 ---
 

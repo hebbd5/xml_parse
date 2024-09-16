@@ -2,7 +2,7 @@
 Entity Type: Individual
 Sanctions Lists: SDN List
 Sanctions Programs: ['IRAN-EO13876', 'IRAN-HR', 'IRGC']
-Sanctions Types: SDN List
+Sanctions Types: Block
 Legal Authorities: ['Executive Order 13553 (Iran)', 'Executive Order 13876 (Iran)']
 ---
 

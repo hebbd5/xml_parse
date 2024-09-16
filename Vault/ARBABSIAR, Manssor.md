@@ -2,7 +2,7 @@
 Entity Type: Individual
 Sanctions Lists: SDN List
 Sanctions Programs: ['IFSR', 'IRGC', 'SDGT']
-Sanctions Types: SDN List
+Sanctions Types: Block
 Legal Authorities: ['Executive Order 13224 (Terrorism)', 'TRA']
 ---
 Driver's License is issued by the State of Texas

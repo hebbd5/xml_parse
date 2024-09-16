@@ -2,7 +2,7 @@
 Entity Type: Individual
 Sanctions Lists: SDN List
 Sanctions Programs: ['IFSR', 'IRAN-EO13876', 'IRAN-HR', 'IRGC', 'NPWMD', 'SDGT']
-Sanctions Types: SDN List
+Sanctions Types: Block
 Legal Authorities: ['Executive Order 13224 (Terrorism)', 'Executive Order 13382 (Non-proliferation)', 'Executive Order 13553 (Iran)', 'Executive Order 13876 (Iran)']
 ---
 Head of the Basij
