@@ -1,9 +1,9 @@
 ---
-Entity Type: Organization
+Entity Type: Entity
 Sanctions Lists: SDN List
-Sanctions Programs: ['IFSR', 'IRAN', 'IRGC', 'SDGT']
-Sanctions Types: SDN List
-Legal Authorities: ['Executive Order 13224 (Terrorism)', 'Executive Order 13599 (Iran)']
+Sanctions Programs: ['#IFSR', '#IRAN', '#IRGC', '#SDGT']
+Sanctions Types: Block
+Legal Authorities: ['#Executive Order 13224 (Terrorism)', '#Executive Order 13599 (Iran)']
 ---
 
 ## Aliases

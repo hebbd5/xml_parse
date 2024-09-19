@@ -1,9 +1,9 @@
 ---
 Entity Type: Individual
 Sanctions Lists: SDN List
-Sanctions Programs: ['HRIT-IR', 'ELECTION-EO13848', 'IFSR', 'IRGC', 'SDGT']
+Sanctions Programs: ['#HRIT-IR', '#ELECTION-EO13848', '#IFSR', '#IRGC', '#SDGT']
 Sanctions Types: Block
-Legal Authorities: ['Executive Order 13606 (Iran/Syria)', 'Executive Order 13848 (Election)', 'Executive Order 13224 (Terrorism)']
+Legal Authorities: ['#Executive Order 13606 (Iran/Syria)', '#Executive Order 13848 (Election)', '#Executive Order 13224 (Terrorism)']
 ---
 
 ## Aliases

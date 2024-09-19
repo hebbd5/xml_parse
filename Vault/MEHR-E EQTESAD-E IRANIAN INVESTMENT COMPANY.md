@@ -1,9 +1,9 @@
 ---
-Entity Type: Organization
+Entity Type: Entity
 Sanctions Lists: SDN List
-Sanctions Programs: ['IFSR', 'IRGC', 'NPWMD', 'SDGT']
-Sanctions Types: SDN List
-Legal Authorities: ['31 CFR 594.201(a)(5)', 'Executive Order 13224 (Terrorism)', 'Executive Order 13382 (Non-proliferation)', 'TRA']
+Sanctions Programs: ['#IFSR', '#IRGC', '#NPWMD', '#SDGT']
+Sanctions Types: Block
+Legal Authorities: ['#31 CFR 594.201(a)(5)', '#Executive Order 13224 (Terrorism)', '#Executive Order 13382 (Non-proliferation)', '#TRA']
 ---
 Fax: 982188526337; Alt. Fax: 9221227700019
 
@@ -13,7 +13,7 @@ Fax: 982188526337; Alt. Fax: 9221227700019
 | A.K.A. | MEHR EGHTESAD IRANIAN INVESTMENT COMPANY |
 | A.K.A. | MEHR IRANIAN ECONOMY COMPANY |
 | A.K.A. | MEHR IRANIAN ECONOMY INVESTMENTS |
-| A.K.A. | Mehr Eqtesad Iranian Investment Company |
+| A.K.A. | MEHR EQTESAD IRANIAN INVESTMENT COMPANY |
 | F.K.A. | TEJARAT TOSE'E EQTESADI IRANIAN |
 
 ## Relationships

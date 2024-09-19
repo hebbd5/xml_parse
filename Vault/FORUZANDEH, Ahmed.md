@@ -1,9 +1,9 @@
 ---
 Entity Type: Individual
 Sanctions Lists: SDN List
-Sanctions Programs: ['IRAQ3', 'IRGC', 'SDGT']
+Sanctions Programs: ['#IRAQ3', '#IRGC', '#SDGT']
 Sanctions Types: Block
-Legal Authorities: ['31 CFR 594.201(a)(5)', 'Executive Order 13438 (Iraq)']
+Legal Authorities: ['#31 CFR 594.201(a)(5)', '#Executive Order 13438 (Iraq)']
 ---
 
 ## Aliases

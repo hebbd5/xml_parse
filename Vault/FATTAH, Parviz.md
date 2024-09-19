@@ -1,9 +1,9 @@
 ---
 Entity Type: Individual
 Sanctions Lists: SDN List
-Sanctions Programs: ['IFSR', 'IRAN-EO13876', 'IRGC', 'NPWMD', 'SDGT']
+Sanctions Programs: ['#IFSR', '#IRAN-EO13876', '#IRGC', '#NPWMD', '#SDGT']
 Sanctions Types: Block
-Legal Authorities: ['31 CFR 594.201(a)(5)', 'Executive Order 13224 (Terrorism)', 'Executive Order 13382 (Non-proliferation)', 'Executive Order 13876 (Iran)', 'TRA']
+Legal Authorities: ['#31 CFR 594.201(a)(5)', '#Executive Order 13224 (Terrorism)', '#Executive Order 13382 (Non-proliferation)', '#Executive Order 13876 (Iran)', '#TRA']
 ---
 
 ## Aliases

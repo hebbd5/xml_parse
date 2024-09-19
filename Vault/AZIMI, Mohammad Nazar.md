@@ -1,9 +1,9 @@
 ---
 Entity Type: Individual
 Sanctions Lists: SDN List
-Sanctions Programs: ['IRAN-HR', 'IRGC', 'CAATSA - IRAN']
+Sanctions Programs: ['#IRAN-HR', '#IRGC', '#CAATSA - IRAN']
 Sanctions Types: Block
-Legal Authorities: Executive Order 13553 (Iran)
+Legal Authorities: ['#Executive Order 13553 (Iran)']
 ---
 
 ## Aliases

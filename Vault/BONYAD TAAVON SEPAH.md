@@ -1,9 +1,9 @@
 ---
-Entity Type: Organization
+Entity Type: Entity
 Sanctions Lists: SDN List
-Sanctions Programs: ['IRGC', 'NPWMD', 'IFSR', 'SDGT', 'IRAN-HR']
-Sanctions Types: SDN List
-Legal Authorities: ['TRA', '31 CFR 594.201(a)(5)', 'Executive Order 13553 (Iran)']
+Sanctions Programs: ['#IRGC', '#NPWMD', '#IFSR', '#SDGT', '#IRAN-HR']
+Sanctions Types: Block
+Legal Authorities: ['#TRA', '#31 CFR 594.201(a)(5)', '#Executive Order 13553 (Iran)']
 ---
 
 ## Aliases

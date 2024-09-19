@@ -1,9 +1,9 @@
 ---
-Entity Type: Organization
+Entity Type: Entity
 Sanctions Lists: SDN List
-Sanctions Programs: ['IFSR', 'IRAN', 'IRGC', 'NPWMD', 'SDGT']
-Sanctions Types: SDN List
-Legal Authorities: ['Executive Order 13224 (Terrorism)', 'Executive Order 13382 (Non-proliferation)', 'Executive Order 13599 (Iran)', 'TRA']
+Sanctions Programs: ['#IFSR', '#IRAN', '#IRGC', '#NPWMD', '#SDGT']
+Sanctions Types: Block
+Legal Authorities: ['#Executive Order 13224 (Terrorism)', '#Executive Order 13382 (Non-proliferation)', '#Executive Order 13599 (Iran)', '#TRA']
 ---
 
 ## Aliases
@@ -12,7 +12,7 @@ Legal Authorities: ['Executive Order 13224 (Terrorism)', 'Executive Order 13382 
 | A.K.A. | ANSAR FINANCE AND CREDIT FUND |
 | A.K.A. | ANSAR FINANCIAL AND CREDIT INSTITUTE |
 | A.K.A. | BANK-E ANSAR |
-| A.K.A. | Bank Ansar |
+| A.K.A. | BANK ANSAR |
 | F.K.A. | ANSAR INSTITUTE |
 | F.K.A. | ANSAR AL-MOJAHEDIN NO-INTEREST LOAN INSTITUTE |
 | F.K.A. | ANSAR SAVING AND INTEREST FREE-LOANS FUND |

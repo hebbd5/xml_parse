@@ -1,9 +1,9 @@
 ---
-Entity Type: Organization
+Entity Type: Entity
 Sanctions Lists: SDN List
-Sanctions Programs: ['ELECTION-EO13848', 'FTO', 'HRIT-IR', 'IFSR', 'IRAN-HR', 'IRGC', 'NPWMD', 'SDGT']
-Sanctions Types: SDN List
-Legal Authorities: ['Executive Order 13224 (Terrorism)', 'Executive Order 13848 (Election)', 'TRA']
+Sanctions Programs: ['#ELECTION-EO13848', '#FTO', '#HRIT-IR', '#IFSR', '#IRAN-HR', '#IRGC', '#NPWMD', '#SDGT']
+Sanctions Types: Block
+Legal Authorities: ['#Executive Order 13224 (Terrorism)', '#Executive Order 13848 (Election)', '#TRA']
 ---
 
 ## Aliases
@@ -23,14 +23,14 @@ Legal Authorities: ['Executive Order 13224 (Terrorism)', 'Executive Order 13848 
 | A.K.A. | PASDARAN |
 | A.K.A. | SEPAH PASDARAN |
 | A.K.A. | ISLAMIC REVOLUTIONARY CORPS |
-| A.K.A. | Islamic Revolutionary Guards Corps |
-| A.K.A. | Islamic Revolution Guards Corps |
-| A.K.A. | Iran's Revolutionary Guard Corps |
-| A.K.A. | Islamic Revolutionary Guards |
-| A.K.A. | Iran's Revolutionary Guards |
-| A.K.A. | Army of the Guardians of the Islamic Revolution |
-| A.K.A. | Sepah-e Pasdaran-e Enghelab-e Eslami |
-| A.K.A. | Sepah-e Pasdaran Enghelab Islami |
+| A.K.A. | ISLAMIC REVOLUTIONARY GUARDS CORPS |
+| A.K.A. | ISLAMIC REVOLUTION GUARDS CORPS |
+| A.K.A. | IRAN'S REVOLUTIONARY GUARD CORPS |
+| A.K.A. | ISLAMIC REVOLUTIONARY GUARDS |
+| A.K.A. | IRAN'S REVOLUTIONARY GUARDS |
+| A.K.A. | ARMY OF THE GUARDIANS OF THE ISLAMIC REVOLUTION |
+| A.K.A. | SEPAH-E PASDARAN-E ENGHELAB-E ESLAMI |
+| A.K.A. | SEPAH-E PASDARAN ENGHELAB ISLAMI |
 
 ## Features
 | Type  | Value      |

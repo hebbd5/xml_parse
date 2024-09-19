@@ -1,9 +1,9 @@
 ---
 Entity Type: Individual
 Sanctions Lists: SDN List
-Sanctions Programs: ['IRGC', 'SDGT']
+Sanctions Programs: ['#IRGC', '#SDGT']
 Sanctions Types: Block
-Legal Authorities: Executive Order 13224 (Terrorism)
+Legal Authorities: ['#Executive Order 13224 (Terrorism)']
 ---
 
 ## Aliases

@@ -1,9 +1,9 @@
 ---
 Entity Type: Individual
 Sanctions Lists: SDN List
-Sanctions Programs: ['IFSR', 'IRGC', 'SDGT', 'NPWMD']
+Sanctions Programs: ['#IFSR', '#IRGC', '#SDGT', '#NPWMD']
 Sanctions Types: Block
-Legal Authorities: ['Executive Order 13224 (Terrorism)', 'Executive Order 13382 (Non-proliferation)']
+Legal Authorities: ['#Executive Order 13224 (Terrorism)', '#Executive Order 13382 (Non-proliferation)']
 ---
 
 ## Aliases

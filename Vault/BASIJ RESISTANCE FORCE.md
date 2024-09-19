@@ -1,9 +1,9 @@
 ---
-Entity Type: Organization
+Entity Type: Entity
 Sanctions Lists: SDN List
-Sanctions Programs: ['FTO', 'IFSR', 'IRAN-HR', 'IRGC', 'SDGT']
-Sanctions Types: SDN List
-Legal Authorities: ['31 CFR 594.201(a)(5)', 'Executive Order 13224 (Terrorism)', 'Executive Order 13553 (Iran)']
+Sanctions Programs: ['#FTO', '#IFSR', '#IRAN-HR', '#IRGC', '#SDGT']
+Sanctions Types: Block
+Legal Authorities: ['#31 CFR 594.201(a)(5)', '#Executive Order 13224 (Terrorism)', '#Executive Order 13553 (Iran)']
 ---
 
 ## Aliases
@@ -16,15 +16,15 @@ Legal Authorities: ['31 CFR 594.201(a)(5)', 'Executive Order 13224 (Terrorism)',
 | A.K.A. | RESISTANCE MOBILIZATION FORCE |
 | A.K.A. | MOBILIZATION OF THE OPPRESSED ORGANIZATION |
 | A.K.A. | BASIJ |
-| A.K.A. | Islamic Revolution Guards Corps Resistance Force |
-| A.K.A. | Mobilization of the Oppressed |
-| A.K.A. | Mobilization of the Oppressed Unit |
-| A.K.A. | Organization of the Mobilisation of the Oppressed |
-| A.K.A. | Sazeman-e Basij-e Mostazafan |
-| A.K.A. | Vahed-e Basij Mostaza'feen |
-| A.K.A. | Nirooye Moghavemate Basij |
-| A.K.A. | Niruyeh Moghavemat Basij |
-| A.K.A. | Basij Resistance Forces |
+| A.K.A. | ISLAMIC REVOLUTION GUARDS CORPS RESISTANCE FORCE |
+| A.K.A. | MOBILIZATION OF THE OPPRESSED |
+| A.K.A. | MOBILIZATION OF THE OPPRESSED UNIT |
+| A.K.A. | ORGANIZATION OF THE MOBILISATION OF THE OPPRESSED |
+| A.K.A. | SAZEMAN-E BASIJ-E MOSTAZAFAN |
+| A.K.A. | VAHED-E BASIJ MOSTAZA'FEEN |
+| A.K.A. | NIROOYE MOGHAVEMATE BASIJ |
+| A.K.A. | NIRUYEH MOGHAVEMAT BASIJ |
+| A.K.A. | BASIJ RESISTANCE FORCES |
 | F.K.A. | SAZMAN BASIJ MELLI |
 | F.K.A. | NATIONAL MOBILIZATION ORGANIZATION |
 | F.K.A. | VAHED-E BASIJ-E MOSTAZAFEEN |
