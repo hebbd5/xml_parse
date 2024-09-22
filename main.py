@@ -2,16 +2,15 @@ import os
 import json
 from bs4 import BeautifulSoup
 
-## Read XML file and create soup
+## Designate input XLM file
 xml_filepath = "Datasets/IRGC_sanctions.xml"
 
-with open(xml_filepath, "r") as file:
-    xml_data = file.read()
 
-soup = BeautifulSoup(xml_data, features='xml')
-
-## w
+## Convert XML soup to JSON format
 def xml_to_json(element):
+    """
+    Recursively parses XML soup, returning as JSON format 
+    """
     
     if isinstance(element, str):
         return element
@@ -34,7 +33,7 @@ def xml_to_json(element):
                 result[child.name] = [result[child.name]]
             result[child.name].append(xml_to_json(child))
             
-    # Directly capture text nodes without 'text' key
+    ### Directly capture text nodes without 'text' key
     if element.string and element.string.strip():
         return element.string.strip()
     
@@ -46,3 +45,11 @@ def xml_to_json(element):
 
 ### Execute with main 
 def main(input_file):
+    
+    with open(xml_filepath, "r") as file:
+        xml_data = file.read()
+
+    soup = BeautifulSoup(xml_data, features='xml')
+    
+    entity_json = xml_to_json(soup)
+    
