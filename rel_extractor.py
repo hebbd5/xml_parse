@@ -1,5 +1,6 @@
 import pandas as pd
 import regex as re
+import argparse
 from bs4 import BeautifulSoup
 
 
@@ -138,15 +139,38 @@ def format_name(entity_name):
 
 
 
-def main(input_file):
+def main():
     
     """
     Accepts an XML of US OFAC sanctions information, returning a csv of relationship nodes and edges 
     """
     
-    with open(input_file, "r") as file:
-        xml_data = file.read()
+    parser = argparse.ArgumentParser(description = "Process an XML file and extract relationship data.")
+    
+    parser.add_argument("input_file", 
+                        help = "Path to the input XML file.")
+    
+    parser.add_argument("-o", 
+                        "--output_file", 
+                        default = "relationship_data.csv", 
+                        help = "Path to the output CSV file (default: relationship_data.csv)")
+    
+    args = parser.parse_args()
+    
+    try:
+        with open(args.input_file, "r") as file:
+            xml_data = file.read()
 
+    except FileNotFoundError:
+        logging.error(f"Input file not found: {input_file}")
+        
+    except XMLSyntaxError as e:
+        logging.error(f"Error parsing XML: {e}")
+        
+    except Exception as e:
+        logging.error(f"An unexpected error occurred: {e}"
+        
+        
     ## Convert XML to JSON format, isolate entity data 
     soup = BeautifulSoup(xml_data, features='xml')
     
@@ -177,12 +201,11 @@ def main(input_file):
     df["entity_2"] = df["entity_2"].apply(format_name)
     
     ## Save dataframe as csv
-    df.to_csv("relationship_dataset.csv", index = False)
+    df.to_csv(args.output_file, index = False)
     
     ## Or return DF if desired  
     # return df
     
     
-    
-xml_filepath = "Datasets/IRGC_sanctions.xml"
-main(xml_filepath)
+if __name__ == "__main__":
+    main()
