@@ -49,4 +49,3 @@
 | TCO   | Transnational criminal organizations |
 | CYBER2 | Executive Order 13694; ​Executive Order 13757 |
 | HIFPAA | Hizballah International Financing Prevention Amendments Act of 2018, Public Law No: 115-272 |
-| 

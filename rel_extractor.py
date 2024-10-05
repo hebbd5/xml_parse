@@ -1,44 +1,5 @@
-import pandas as pd
 import regex as re
-import argparse
-from bs4 import BeautifulSoup
-
-
-## Convert XML soup to JSON format
-def xml_to_json(element):
-    
-    """
-    Recursively parses XML soup, returning as JSON format 
-    """
-    
-    if isinstance(element, str):
-        return element
-    
-    if not element.contents:
-        return element.string
-    
-    result = {}
-    
-    for child in element.children:
-        
-        if isinstance(child, str):
-            continue
-        
-        if child.name not in result:
-            result[child.name] = xml_to_json(child)
-            
-        else:
-            if not isinstance(result[child.name], list):
-                result[child.name] = [result[child.name]]
-            result[child.name].append(xml_to_json(child))
-            
-    ### Directly capture text nodes without 'text' key
-    if element.string and element.string.strip():
-        return element.string.strip()
-    
-    return result
-
-
+import pandas as pd
 
 def find_relationships(entity):
     
@@ -85,8 +46,7 @@ def find_relationships(entity):
                         if trans["script"] == "Latin":
                             entity_name = trans["formattedFullName"]
 
-
-    ## Collect relationship information
+## Collect relationship information
     relationships = entity["relationships"]["relationship"]
     rel_list = []
     
@@ -111,8 +71,6 @@ def find_relationships(entity):
                 rel_list.append([entity_name, rel_type, rel_entity]) 
             
     return rel_list
-
-
 
 def format_name(entity_name):
     
@@ -139,47 +97,9 @@ def format_name(entity_name):
 
 
 
-def main():
-    
-    """
-    Accepts an XML of US OFAC sanctions information, returning a csv of relationship nodes and edges 
-    """
-    
-    parser = argparse.ArgumentParser(description = "Process an XML file and extract relationship data.")
-    
-    parser.add_argument("input_file", 
-                        help = "Path to the input XML file.")
-    
-    parser.add_argument("-o", 
-                        "--output_file", 
-                        default = "relationship_data.csv", 
-                        help = "Path to the output CSV file (default: relationship_data.csv)")
-    
-    args = parser.parse_args()
-    
-    try:
-        with open(args.input_file, "r") as file:
-            xml_data = file.read()
+## Main Function
+def rel_extractor_main(entity_data):
 
-    except FileNotFoundError:
-        logging.error(f"Input file not found: {input_file}")
-        
-    except XMLSyntaxError as e:
-        logging.error(f"Error parsing XML: {e}")
-        
-    except Exception as e:
-        logging.error(f"An unexpected error occurred: {e}"
-        
-        
-    ## Convert XML to JSON format, isolate entity data 
-    soup = BeautifulSoup(xml_data, features='xml')
-    
-    entity_json = xml_to_json(soup)
-    entity_data = entity_json['sanctionsData']["entities"]["entity"]
-    entity_data = [entity for entity in entity_data if entity["generalInfo"]["entityType"] in ["Individual", "Entity"]]
-    
-    
-    ## Extract entity relationship information
     relationships = []
     
     for entity in entity_data:
@@ -201,11 +121,8 @@ def main():
     df["entity_2"] = df["entity_2"].apply(format_name)
     
     ## Save dataframe as csv
-    df.to_csv(args.output_file, index = False)
+    # df.to_csv(args.output_file, index = False)
     
-    ## Or return DF if desired  
-    # return df
-    
-    
-if __name__ == "__main__":
-    main()
+    ## Or return DF if desired 
+    # Seems better for use in main.py 
+    return df
